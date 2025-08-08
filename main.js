@@ -16,7 +16,7 @@ const SUPPORTED_CODE_LANGUAGES = [
 ];
 
 const highlighter = await createHighlighter({
-  theme: "github-dark",
+  themes: ["github-light", "github-dark"],
   langs: SUPPORTED_CODE_LANGUAGES,
 });
 
@@ -76,4 +76,4 @@ const msg = `
 }
 `;
 
-document.querySelector("#app").textContent = await marked.parse(msg);
+document.querySelector("#app pre").textContent = await marked.parse(msg);

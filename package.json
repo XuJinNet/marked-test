@@ -8,9 +8,9 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "marked": "^16.1.1",
-    "marked-shiki": "^1.2.0",
-    "shiki": "^3.9.1",
-    "vite": "^6.2.2"
+    "marked": "^16.1.2",
+    "marked-shiki": "^1.2.1",
+    "shiki": "^3.9.2",
+    "vite": "^6.3.5"
   }
 }
