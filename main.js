@@ -76,4 +76,4 @@ const msg = `
 }
 `;
 
-document.querySelector("#app pre").textContent = await marked.parse(msg);
+document.querySelector("#app code").textContent = await marked.parse(msg);
